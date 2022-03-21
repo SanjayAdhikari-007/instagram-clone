@@ -32,15 +32,31 @@
   <title>clone</title>
   <link rel="manifest" href="manifest.json">
   <style>
-    .sk-fading-circle {
-  margin: 100px auto;
-  color:#0095f6;
+  .sk-fading-circle {
+  margin-left: 42%;
+  margin-right: 30%;
   position: relative;
   display: flex;
-  width: 120px;
-  height: 120px;
+  width: 13vmin;
+  height: 13vmin;
   justify-content: center;
   align-items: center;
+}
+h1{
+  font-family: Verdana, Tahoma, sans-serif;
+}
+img{
+  justify-content: center;
+  display: block;
+}
+.text{
+  display: flexbox;
+  margin-left: 42%;
+  margin-right: 30%;
+  margin-top: 5%;
+}
+.svginsta{
+  display: inline-block;
 }
 
 .sk-fading-circle .sk-circle {
@@ -53,11 +69,11 @@
 
 .sk-fading-circle .sk-circle:before {
   content: '';
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   width: 15%;
   height: 15%;
-  background-color: #333;
+  background-color:#0095f6;
   border-radius: 100%;
   -webkit-animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
           animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
@@ -177,20 +193,26 @@
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <div class="sk-fading-circle">
-    <div class="sk-circle1 sk-circle"></div>
-    <div class="sk-circle2 sk-circle"></div>
-    <div class="sk-circle3 sk-circle"></div>
-    <div class="sk-circle4 sk-circle"></div>
-    <div class="sk-circle5 sk-circle"></div>
-    <div class="sk-circle6 sk-circle"></div>
-    <div class="sk-circle7 sk-circle"></div>
-    <div class="sk-circle8 sk-circle"></div>
-    <div class="sk-circle9 sk-circle"></div>
-    <div class="sk-circle10 sk-circle"></div>
-    <div class="sk-circle11 sk-circle"></div>
-    <div class="sk-circle12 sk-circle"></div>
-  </div>  
+  <div class="body_page">
+    <div class="text">
+      <img src="logo.png" alt="" height=160vh>
+      <h1>Clone</h1>
+    </div>    
+    <div class="sk-fading-circle">
+      <div class="sk-circle1 sk-circle"></div>
+      <div class="sk-circle2 sk-circle"></div>
+      <div class="sk-circle3 sk-circle"></div>
+      <div class="sk-circle4 sk-circle"></div>
+      <div class="sk-circle5 sk-circle"></div>
+      <div class="sk-circle6 sk-circle"></div>
+      <div class="sk-circle7 sk-circle"></div>
+      <div class="sk-circle8 sk-circle"></div>
+      <div class="sk-circle9 sk-circle"></div>
+      <div class="sk-circle10 sk-circle"></div>
+      <div class="sk-circle11 sk-circle"></div>
+      <div class="sk-circle12 sk-circle"></div>
+    </div>
+  </div>     
   <script>
     var serviceWorkerVersion = '1617340992';
     var scriptLoaded = false;
