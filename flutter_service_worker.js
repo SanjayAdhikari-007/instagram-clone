@@ -8,19 +8,23 @@ const RESOURCES = {
 "assets/assets/img/rect.png": "bfe37829df707ae77d1d48705bf36d08",
 "assets/assets/img/sun.png": "3f4a4afd0117ad29d1add23a1833acc6",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "e71ea92775b56d9ab436a381caf990f1",
+"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/NOTICES": "18241bbe737e22798b5ffafb8c36c00e",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/android-chrome-192x192.png": "95b2078c46875f8279cbdb069c299d76",
 "icons/android-chrome-512x512.png": "d6e390f1d1008ae8011eddfaf0835d62",
 "icons/apple-touch-icon.png": "2279a7a009f0e121dc39edb0562dd463",
-"index.html": "9dd18224d068a8842ff67a39a6915ab7",
-"/": "9dd18224d068a8842ff67a39a6915ab7",
+"index.html": "4978c950ec6340bda8b8d15e22c49223",
+"/": "4978c950ec6340bda8b8d15e22c49223",
 "logo.png": "c2355c5fc036cc7d8f4078fc03c53ebf",
-"main.dart.js": "93a82f927258125e42d8490f33df357a",
+"main.dart.js": "2c9d28b6c8791d822de9f495208e75d8",
 "manifest.json": "79e4f61b7639394e1a5bad46d5eb2c17",
-"version.json": "3392543d89540110dd2644f49d5dac33"
+"version.json": "3e3f8175a8b0c44e016ed5f0ab010168"
 };
 
 // The application shell files that are downloaded before a service worker can
